@@ -9,7 +9,7 @@
 ## Предварительный просмотр
 
 Веб версия:
-![Веб версия:](<https://abrakadabrapuf.github.io/product_preview/>)
+[Веб версия:](https://abrakadabrapuf.github.io/product_preview/)
 
 Версия для ПК:
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/product_preview/blob/main/images/desktop-design.jpg>)
