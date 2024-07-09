@@ -1,0 +1,209 @@
+:root {
+	--color-dark-cyan: hsl(158, 36%, 37%);
+	--color-cream: hsl(30, 38%, 92%);
+	--color-very-dark-blue: hsl(212, 21%, 14%);
+	--color-dark-grayish-blue: hsl(228, 12%, 48%);
+	--color-white: hsl(0, 0%, 100%);
+
+	--ff-accent: 'Fraunces', serif;
+	--ff-base: 'Montserrat', serif;
+}
+
+body {
+	background-color: var(--color-cream);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+
+}
+
+.container_product {
+	background-color: hsl(0, 0%, 100%);
+	max-width: 800px; /*ширина всей плашки*/
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row; /*выравнивание блоков по горизонтали*/
+	border-radius: 15px;
+}
+
+.product_img {
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 50%;
+	padding: 0;
+}
+
+.product_img img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px 0 0 15px;
+}
+
+.product_content {
+	margin: 26px 40px 0 40px;
+}
+
+.product_category {
+	font-family: Montserrat, sans-serif;
+	color: var(--color-dark-grayish-blue);
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 6.5px;
+}
+
+.product-title {
+	font-family: Fraunces, sans-serif;
+	font-size: 43px;
+	line-height: 0.985;
+}
+
+.product-describe {
+	font-family: Montserrat, sans-serif;
+	color: var(--color-dark-grayish-blue);
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 1.6;
+	margin: 33px 0 0 0;
+	
+}
+
+div .price {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	line-height: 1.0075;
+}
+.product_current_price {
+	color: var(--color-dark-cyan);
+	font-family: Fraunces, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.product_first_price {
+	font-size: 20px;
+	color: var(--color-dark-grayish-blue);
+	text-decoration: line-through;
+}
+
+.button {
+	background-color: var(--color-dark-cyan);
+	color: var(--color-white);
+	font-size: 20px;
+	font-weight: 600;
+	font-family: Montserrat, sans-serif;
+	border-radius: 10px;
+	width: 100%;
+	height: 64px;
+	margin: 0 0 0px 0;
+	border: none;
+}
+
+.button img {
+	margin: 0 5px 0 0;
+	width: 25px; /* Ширина иконки */
+	height: 25px; /* Высота иконки */
+}
+
+
+@media (max-width: 799px) {
+	body {
+		background-color: var(--color-cream);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		min-height: 100vh;
+	}
+	.container_product {
+		background-color: hsl(0, 0%, 100%);
+		max-width: 375px; /*ширина всей плашки*/
+		height: auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: column; /*выравнивание блоков по горизонтали*/
+		border-radius: 10px;
+	}
+
+	.product_img {
+		padding: 0;
+		margin: 0;
+	}
+	
+	.product_img img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px 10px 0 0px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.product_content {
+		margin: 10px 25px 25px 25px;
+	}
+
+	.product_category {
+		font-family: Montserrat, sans-serif;
+		color: var(--color-dark-grayish-blue);
+		font-weight: 500;
+		font-size: 11px;
+		/*letter-spacing: 6.5px;*/
+		margin-bottom: -1em;
+	}
+
+	.product-title {
+		font-family: Fraunces, sans-serif;
+		font-size: 33px;
+		margin-bottom: 0.5em;
+		line-height: 1;
+	}
+
+	.product-describe {
+		font-family: Montserrat, sans-serif;
+		color: var(--color-dark-grayish-blue);
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.6;
+		margin: 0 0 0 0;
+		margin-bottom: -1em;
+
+	}
+
+	div .price {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		/*line-height: 1.0075;*/
+		margin-bottom: -0.5em;
+
+	}
+	.product_current_price {
+		color: var(--color-dark-cyan);
+		font-family: Fraunces, sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+	.product_first_price {
+		font-size: 15px;
+		color: var(--color-dark-grayish-blue);
+		/*text-decoration: line-through;*/
+	}
+
+	.button {
+		background-color: var(--color-dark-cyan);
+		color: var(--color-white);
+		font-size: 14px;
+		font-weight: 600;
+		font-family: Montserrat, sans-serif;
+		border-radius: 10px;
+		width: 100%;
+		height: 48px;
+		margin: 0 0 0 0;
+		border: none;
+
+	}
+}
