@@ -13,6 +13,7 @@
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/product_preview/blob/main/images/desktop-design.jpg>)
 
 Версия для мобильных:
+
 ![Версия для мобильных:](<https://github.com/AbraKadabraPuf/product_preview/blob/main/images/mobile-design.jpg>)
 
 ## Как использовать:
