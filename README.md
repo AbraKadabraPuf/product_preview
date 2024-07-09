@@ -7,9 +7,12 @@
 Проект предполагает разработку интерфейса карточки товара, который будет простым и адаптивным, для мобильной версии шириной от 240px, до 800px для дектопной версии.
 
 Предварительный просмотр версии: ()# product_preview
-# product_preview 
+# product_preview
+
+Версия для ПК:
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/product_preview/blob/main/images/desktop-design.jpg>)
 
+Версия для мобильных:
 ![Версия для мобильных:](<https://github.com/AbraKadabraPuf/product_preview/blob/main/images/mobile-design.jpg>)
 
 ## Как использовать:
