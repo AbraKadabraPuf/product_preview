@@ -8,8 +8,8 @@
 
 ## Предварительный просмотр
 
-Веб версия доступная по ссылке:
-[Веб версия:](https://abrakadabrapuf.github.io/product_preview/)
+Веб версия доступна по ссылке:
+[https://abrakadabrapuf.github.io/product_preview/:](https://abrakadabrapuf.github.io/product_preview/)
 
 Версия для ПК:
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/product_preview/blob/main/images/desktop-design.jpg>)
